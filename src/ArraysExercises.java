@@ -11,9 +11,8 @@ public class ArraysExercises {
         arr[0] = new Person("Justin1");
         arr[1] = new Person("Justin2");
         arr[2] = new Person("Justin3");
-//        System.out.println(Arrays.toString(arr[0].name));
         System.out.println("My name is " + arr[0].name);
-        for (int i = 0; i <= arr.length; i += 1) {
+        for (int i = 0; i <= arr.length; i++) {
             System.out.println(arr[i].name);
         }
     }
