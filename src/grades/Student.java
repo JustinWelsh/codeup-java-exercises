@@ -7,9 +7,9 @@ public class Student {
     private ArrayList<Double> grades;
 
 //CONSTRUCTOR
-    public Student(String name, ArrayList<Double> grades) {
+    public Student(String name) {
         this.name = name;
-        this.grades = grades;
+        this.grades = new ArrayList<>();
     }
 
     // returns the student's name
