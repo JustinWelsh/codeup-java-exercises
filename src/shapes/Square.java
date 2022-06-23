@@ -1,6 +1,6 @@
 package shapes;
-
-public class Square extends Rectangle {
+//todo #6
+//public class Square extends Quadrilateral {
 //
 //    protected int side;
 //
@@ -16,5 +16,5 @@ public class Square extends Rectangle {
 //    public int getArea() {
 //        return side * side;
 //    }
-}
+//}
 
