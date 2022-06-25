@@ -16,21 +16,19 @@ public class ShapesTest {
         //todo #7
         Measurable myShape;
 
-        Square square1 = new Square(5);
-        System.out.printf("\nsquare1 area = %d", square1.getArea());
-        System.out.printf("\nsquare1 perimeter = %d", square1.getPerimeter());
+        myShape = new Square(5);
+        System.out.printf("\nmyShape-sq. area = %d", myShape.getArea());
+        System.out.printf("\nmyShape-sq. perimeter = %d", myShape.getPerimeter());
         System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~");
-        Rectangle rec1 = new Rectangle(5, 10);
-        System.out.printf("rec1 area = %d", rec1.getArea());
-        System.out.printf("\nrec1 perimeter = %d", rec1.getPerimeter());
+        myShape = new Rectangle(5, 10);
+        System.out.printf("myShape-rec. area = %d", myShape.getArea());
+        System.out.printf("\nmyShape-rec. perimeter = %d", myShape.getPerimeter());
 
         //todo #9       Why does the code fail to compile if you leave off the getPerimeter method in Rectangle?
 
-//        System.out.printf("\nrec1 perimeter = %d", rec1); // not sure..
+//        System.out.println(myShape);
 
         //todo #10      What happens if you try to call the getLength or getWidth methods of the myShape variable? Why?
-
-        //not sure..
 
         System.out.println("\n\nGREAT SUCCESS!!");
     }
