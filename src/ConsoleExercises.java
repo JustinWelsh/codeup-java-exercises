@@ -14,7 +14,7 @@ public class ConsoleExercises {
 
 //========================================================================
 
-//        TODO: EXERCISE Console IO (input / output)
+//        TODO:  EXERCISE Console IO (input / output)
 //TODO 1.)
         double pi = 3.14159;
 
@@ -23,7 +23,7 @@ public class ConsoleExercises {
 
         System.out.printf("The value of pi is approximately %.2f\n", pi); // %.2f = '2' decimal places. 'f' = float
 
-//SCANNER CLASS.
+//TODO:     Explore the Scanner Class..
         Scanner scanner = new Scanner(System.in);
 
         //TODO 1.)
@@ -36,15 +36,40 @@ public class ConsoleExercises {
 
     //TODO 2.)
 
-        System.out.println("Enter 3 words");
+//        System.out.println("Enter 3 words");
+//
+//        String firstWordInput = scanner.next();
+//        String secondWordInput = scanner.next();
+//        String thirdWordInput = scanner.next();
+//
+//        System.out.printf("You entered:%n %s%n %s%n %s%n", firstWordInput,secondWordInput, thirdWordInput);
 
-        String firstWordInput = scanner.next();
-        String secondWordInput = scanner.next();
-        String thirdWordInput = scanner.next();
+    //TODO 3.)
+//        System.out.println("Enter a sentence..");
+//        String userSentence = scanner.next();  //".next()"  only prints the first word
+//        System.out.println(userSentence);
 
-        System.out.printf("You entered:%n %s%n %s%n %s%n", firstWordInput,secondWordInput, thirdWordInput);
+    //TODO 4.)
+//        String userSentence = scanner.nextLine();
+//        System.out.println(userSentence);
 
 
+//TODO       Calculate the perimeter and area of Codeup's classrooms.
+        //todo 1.
+        System.out.println("Enter the length and width of the Codeup classroom..");
+        System.out.println("Length");
+        String classRoomLength = scanner.nextLine();
+
+        System.out.println("Width");
+        String classRoomWidth = scanner.nextLine();
+        int newWidth = Integer.parseInt(classRoomWidth);
+        int newLength = Integer.parseInt(classRoomLength);
+
+        //todo 2.
+        int area = newLength * newWidth;
+        int perimeter = (newLength * 2) + (newWidth * 2);
+        System.out.printf("Area + %d", area);
+        System.out.printf("\nPerimeter + %d", perimeter);
 
     }
 }
