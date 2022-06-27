@@ -1,21 +1,26 @@
 package movies;
 
 public class Movie {
+    //private fields
     private String name;
     private String category;
 
-    public void setName(String name) {
+    //constructor
+    public Movie(String name, String category) {
         this.name = name;
-    }
-
-    public void setCategory(String category) {
         this.category = category;
     }
 
+    //getters and setters
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setCategory(String category) {
+        this.category = category;
+    }
     public String getName() {
         return name;
     }
-
     public String getCategory() {
         return category;
     }
