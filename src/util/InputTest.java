@@ -13,8 +13,15 @@ public class InputTest {
 
 //        System.out.printf("%d is a mighty fine number, good choice!", in.getInt());
 
-//        System.out.println(in.getDouble(1,20));
+        System.out.println(in.getDouble(1,20));
 
-        System.out.printf("%f , nice! worth the wait!", in.getDouble());
+//        System.out.printf("%f , nice! worth the wait!", in.getDouble());
+
+        //todo  Exceptions and Error Handling
+
+//        System.out.println(in.getInt());
+
+//        System.out.println(in.getDouble());
+
     }
 }
